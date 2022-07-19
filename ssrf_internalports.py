@@ -37,7 +37,7 @@ proxy = {
 l = range(1,65535)
 for pene in l:
     pene2 = str(pene)
-    payload = "http://localHost:"+pene2
+    payload = "http://localhost:"+pene2
     if args.nfield == None:
         pp = {args.rfield: payload}
     else:
